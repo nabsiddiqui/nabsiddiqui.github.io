@@ -2,7 +2,6 @@
 title: Unaccompanied Migrant Children Part 2
 header: Unaccompanied Migrant Children Part 2
 ---
-# 2024-06-04-Unaccompanied Migrant Children Part 2
 
 For the last two blog posts, I have worked on the [data set that the New York Times released](https://github.com/nytimes/hhs-child-migrant-data) about unaccompanied migrant children in the United States. These are children who have crossed the border into the United States without their parents or legal guardians. In Part 1, I explored the overall trends in the data. The second blog post centers on a searchable database. The hope is that people will be able to look at the data to get a better understanding of the situation and the challenges these children face in their communities. For instance, after searching my hometown zip code of “39305”, I saw that there were three individuals placed in my hometown.
 
