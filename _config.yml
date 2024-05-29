@@ -1,11 +1,11 @@
 # Site settings
-title: Monochrome | A minimal, responsive Jekyll blog theme
+title: Nabeel Siddiqui | Assistant Professor of Digital Media 
 description: "A minimal, responsive, ready to use blog template, built with Jekyll."
-url: "http://www.dyutibarma.github.io/monochrome"
+url: "http://nabsiddiqui.github.io"
 author:
-  name: "The Review Index"
-  email: "dyutibarma@gmail.com"
-  url: "https://thereviewindex.com"
+  name: "Nabeel Siddiqui"
+  email: "siddiqui@susqu.edu"
+  url: "https://nabsiddiqui.github.io"
 
 # Build settings
 baseurl: /
