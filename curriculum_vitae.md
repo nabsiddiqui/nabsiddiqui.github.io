@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CV
+title: Curriculum Vitae
 description: Nabeel Siddiqui CV, which highlights my expertise as an Assistant Professor of Digital Media at Susquehanna University with a focus on data science, cultural analytics, digital humanities, and communication.o Download my CV to learn more about his publications, grants, and teaching experience.
 ---
 
