@@ -9,11 +9,11 @@ description: Nabeel Siddiqui CV, which highlights his expertise as an Assistant 
 Below is a copy of my CV if you would like to learn more about my research, publications, and teaching experience. I'm always happy to collaborate on new projects. References are available upon request.
 
 
-![](assets/CV/1716986758656-f3582036-661e-444e-9a40-7fda2103c0a9_1.jpg) 
-![](assets/CV/1716986758656-f3582036-661e-444e-9a40-7fda2103c0a9_2.jpg) 
-![](assets/CV/1716986758656-f3582036-661e-444e-9a40-7fda2103c0a9_3.jpg) 
-![](assets/CV/1716986758656-f3582036-661e-444e-9a40-7fda2103c0a9_4.jpg) 
-![](assets/CV/1716986758656-f3582036-661e-444e-9a40-7fda2103c0a9_5.jpg) 
-![](assets/CV/1716986758656-f3582036-661e-444e-9a40-7fda2103c0a9_6.jpg) 
-![](assets/CV/1716986758656-f3582036-661e-444e-9a40-7fda2103c0a9_7.jpg) 
-![](assets/CV/1716986758656-f3582036-661e-444e-9a40-7fda2103c0a9_8.jpg)
+![](assets/CV/siddiqui_cv-images-0.jpg) 
+![](assets/CV/siddiqui_cv-images-1.jpg) 
+![](assets/CV/siddiqui_cv-images-2.jpg) 
+![](assets/CV/siddiqui_cv-images-3.jpg) 
+![](assets/CV/siddiqui_cv-images-4.jpg) 
+![](assets/CV/siddiqui_cv-images-5.jpg) 
+![](assets/CV/siddiqui_cv-images-6.jpg) 
+![](assets/CV/siddiqui_cv-images-7.jpg)
