@@ -18,6 +18,7 @@ None of these models advertise themselves as being for vector graphics, but it i
 
 > Prompt: A vector drawing of a man with masculine and strong features represents a successful, strong and unbreakable mentality ,Side shot of face and body , single man ,high quality , 8k , colorful , in digital illustration style
 
+
 <div class="juxtapose">
     <img src="../assets/ai_vector_graphic_generations/kandinsky_1.jpeg data-label="Kandinsky 2.2"> 
     <img src="../assets/ai_vector_graphic_generations/sdxl_1.jpeg data-label="SDL">
