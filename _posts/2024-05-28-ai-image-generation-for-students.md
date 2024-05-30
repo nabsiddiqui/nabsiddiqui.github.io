@@ -16,23 +16,23 @@ None of these models advertise themselves as being for vector graphics, but it i
 > Prompt: A vector drawing of a man with masculine and strong features represents a successful, strong and unbreakable mentality ,Side shot of face and body , single man ,high quality , 8k , colorful , in digital illustration style
 
 <div class="juxtapose">
-<img src="../assets/ai_vector_graphic_generations/kandinsky_1.jpeg" height="50%" data-label="Kandinsky 2.2"> 
-<img src="../assets/ai_vector_graphic_generations/sdxl_1.jpeg" height="50%" data-label="SDL">
+<img src="../assets/ai_vector_graphic_generations/kandinsky_1.jpeg" style="width: 50%; height: 50%" data-label="Kandinsky 2.2"> 
+<img src="../assets/ai_vector_graphic_generations/sdxl_1.jpeg" style="width: 50%; height: 50%" data-label="SDL">
 </div>
 
 
 > Prompt: vector image of a a coarsely shaved, raggedly dressed, post apocalyptic, female cyberpunk scavenger , with highly detailed and deeply cut facial features, searing lines and forceful strokes, precisely drawn, boldly inked, with gritty textures, vibrant colors, dramatic otherworldly lighting
 
 <div class="juxtapose">
-<img src="../assets/ai_vector_graphic_generations/luna_2.jpeg" height="50%" data-label="Luna Diffusion"> 
-<img src="../assets/ai_vector_graphic_generations/22h_2.jpeg" height="50%" data-label="22H Diffusion">
+<img src="../assets/ai_vector_graphic_generations/luna_2.jpeg" style="width: 50%; height: 50%" data-label="Luna Diffusion"> 
+<img src="../assets/ai_vector_graphic_generations/22h_2.jpeg" style="width: 50%; height: 50%" data-label="22H Diffusion">
 </div>
 
 > Prompt: Vector style anthropomorphic fox casting a spell for video game art, 8k, realistic, dramatic lighting, holding coffee in one hand and casting spell with a wand in the other hand
 
 <div class="juxtapose">
-<img src="../assets/ai_vector_graphic_generations/open_journey_3.jpeg" height="50%" data-label="Open Journey"> 
-<img src="../assets/ai_vector_graphic_generations/ssd_1b_3.jpeg" height="50%" data-label="SSD-1B">
+<img src="../assets/ai_vector_graphic_generations/open_journey_3.jpeg" style="width: 50%; height: 50%" data-label="Open Journey"> 
+<img src="../assets/ai_vector_graphic_generations/ssd_1b_3.jpeg" height="50%" style="width: 50%; height: 50%" data-label="SSD-1B">
 </div>
 
 <script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
