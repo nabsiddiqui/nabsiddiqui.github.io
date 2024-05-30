@@ -2,6 +2,8 @@
 title: Prompt Exploration of AI Image Diffusion Models for Students
 header: Prompt Exploration of AI Image Diffusion Models for Students
 ---
+<script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
+<link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
 
 For the last few years, I have had my students explore AI image generation using text prompts. It's been a fascinating journey to see how the technology has progressed and what students can create with it. When the technology had not been so prominent, I used to have the students do a small competition using [Runway](https://runwayml.com/). At first, it was very difficult for students to get good results, as the models were not as advanced.
 
@@ -19,8 +21,6 @@ None of these models advertise themselves as being for vector graphics, but it i
 <img src="../assets/ai_vector_graphic_generations/kandinsky_1.jpeg" data-label="Kandinsky 2.2"> 
 <img src="../assets/ai_vector_graphic_generations/sdxl_1.jpeg" data-label="SDL">
 </div>
-<script src="https://cdn.knightlab.com/libs/juxtapose/latest/js/juxtapose.min.js"></script>
-<link rel="stylesheet" href="https://cdn.knightlab.com/libs/juxtapose/latest/css/juxtapose.css">
 
 
 > Prompt: vector image of a a coarsely shaved, raggedly dressed, post apocalyptic, female cyberpunk scavenger , with highly detailed and deeply cut facial features, searing lines and forceful strokes, precisely drawn, boldly inked, with gritty textures, vibrant colors, dramatic otherworldly lighting
