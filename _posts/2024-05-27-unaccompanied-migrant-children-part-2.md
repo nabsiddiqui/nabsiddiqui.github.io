@@ -28,6 +28,6 @@ If you click on the image below, you will see two maps separated by a slider. On
 
 **Click the Image Below to See the Results of the Cluster and Outlier Analysis using Anselin Local Moran's I**
 
-[<img src="./slide_map.png"/>](https://studio.foursquare.com/map/public/b5f52509-1d98-4e4f-b736-3b435b755537")
+[<img src="../assets/unaccompanied_migrant_children/slide_map.png"/>](https://studio.foursquare.com/map/public/b5f52509-1d98-4e4f-b736-3b435b755537")
 
 As you will notice, we did not have any outliers. This suggests that the distribution of unaccompanied migrant children across the United States is relatively consistent, with areas of high and low concentrations clustering together. Nonetheless, it is essential to note that this analysis is based on a snapshot of the data and does not account for changes over time.****
