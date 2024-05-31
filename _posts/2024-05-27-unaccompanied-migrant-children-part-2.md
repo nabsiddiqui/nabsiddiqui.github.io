@@ -11,7 +11,7 @@ Below, if you click the image, you will be taken to a map that allows you to vis
 
 **Click The Image Below to See an Arc Map**
 
-<a href="https://studio.foursquare.com/map/public/1cb5eb5b-30bd-40e4-84ea-8cf0ffef1695><img src="./arc_map.png"/></a>
+[<img src="../assets/unaccompanied_migrant_children/arc_map.png"/>](https://studio.foursquare.com/map/public/1cb5eb5b-30bd-40e4-84ea-8cf0ffef1695)
 
 However, simply knowing where these individuals land is not useful in and of itself. Frequently, I have found that many individuals beginning their first journey into data science or data analytics will not take into account the dependent nature of the data. One way we can solve this is mixed models, but this becomes trickier with the spatial data. [Tobler’s first law of geography](https://en.wikipedia.org/wiki/Tobler%27s_first_law_of_geography) states that “everything is related to everything else, but near things are more related than distant things.” In many cases, what this means is that we need to account for the spatial relationships between our data points. For example, if we are looking at the number of unaccompanied migrant children in a particular area, we need to consider the characteristics of the surrounding areas as well. One thing that we can use is [Cluster and Outlier Analysis with Anselin Local Moran's I.](https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-statistics/cluster-and-outlier-analysis-anselin-local-moran-s.htm) With these, we can get four results:
 
@@ -28,6 +28,6 @@ If you click on the image below, you will see two maps separated by a slider. On
 
 **Click the Image Below to See the Results of the Cluster and Outlier Analysis using Anselin Local Moran's I**
 
-<a href="https://studio.foursquare.com/map/public/b5f52509-1d98-4e4f-b736-3b435b755537"><img src="./slide_map.png"/></a>
+[<img src="./slide_map.png"/>](https://studio.foursquare.com/map/public/b5f52509-1d98-4e4f-b736-3b435b755537")
 
 As you will notice, we did not have any outliers. This suggests that the distribution of unaccompanied migrant children across the United States is relatively consistent, with areas of high and low concentrations clustering together. Nonetheless, it is essential to note that this analysis is based on a snapshot of the data and does not account for changes over time.****
