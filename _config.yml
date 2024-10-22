@@ -1,17 +1,17 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
-url:            "https://chesterhow.github.io"
+title:          Nabeel Siddiqui
+description:    "Assistant Professor of Digital Media"
+baseurl:        ""
+url:            "https://nabeelsiddiqui.github.io"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
-  name:         Chester How
+  name:         Nabeel Siddiqui
   url:          https://chester.how
-  email:        chesterhow@gmail.com
+  email:        siddiqui@susqu.edu
 
 # Build settings
 markdown:       kramdown
