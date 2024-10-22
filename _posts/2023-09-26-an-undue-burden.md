@@ -1,5 +1,5 @@
 ---
-title: An Undue Burden: A Look at Digital Humanities Conference Travel
+title: "An Undue Burden: A Look at Digital Humanities Conference Travel"
 layout: post
 author: "Nabeel Siddiqui"
 ---
