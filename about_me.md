@@ -1,7 +1,8 @@
 ---
-layout: page
-title: About Me
-description: 
+layout: post
+title: "About Me"
+author: "Nabeel Siddiqui"
+permalink: /about_me/
 ---
 
 ![](/assets/about_me/profile_image.jpeg)
