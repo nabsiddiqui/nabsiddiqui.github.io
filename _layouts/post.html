@@ -7,8 +7,6 @@ layout: default
     <span>Written by</span>
     {% if page.author %}
         {{ page.author }}
-    {% else %}
-        {{ site.author.name }}
     {% endif %}
 
     {% if page.date %}
@@ -29,7 +27,7 @@ layout: default
 
 <div class="pagination">
   {% if page.next.url %}
-    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">Previous Post &#8592;</a>
+    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592; Previous Post</a>
   {% endif %}
   {% if page.previous.url %}
     <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">Next Post &#8594;</a>
