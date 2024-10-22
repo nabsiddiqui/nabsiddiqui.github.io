@@ -1,28 +1,6 @@
 ---
 layout: default
 ---
-
-  <!-- Element to contain animated typing -->
-  <span id="element" style="font-size: xx-large; display: flex; justify-content: center"></span>
-
-  <!-- Load library from the CDN -->
-  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-
-    <!-- Setup and start animation! -->
-    <script>
-      var typed = new Typed('#element', {
-        strings: [
-      'I am a Professor of Digital Media...',
-      'I am a Professor of Digital Media, digital humanist...',
-      'I am a Professor of Digital Media, digital humanist, and media historian.',
-    ],
-        typeSpeed: 30, 
-        backSpeed: 0,
-        smartBackspace: true,
-        loop: false,
-      });
-    </script>
-
 <div class="catalogue">
   {% for post in site.posts %}
     {% if post.sticky %}
