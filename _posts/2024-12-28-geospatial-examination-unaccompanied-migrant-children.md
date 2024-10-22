@@ -1,6 +1,7 @@
 ---
 title: A Geospatial Analysis of Unaccompanied Migrant Children using Anselin Local Moran's I
-header: A Geospatial Analysis of Unaccompanied Migrant Children using Anselin Local Moran's I
+layout: post
+author: "Nabeel Siddiqui"
 ---
 
 In the last blog post, I worked on the [data set that the New York Times released](https://github.com/nytimes/hhs-child-migrant-data) about unaccompanied migrant children in the United States. These are children who have crossed the border into the United States without their parents or legal guardians. 

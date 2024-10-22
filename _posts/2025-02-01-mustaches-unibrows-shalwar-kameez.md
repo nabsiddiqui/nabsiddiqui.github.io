@@ -1,6 +1,7 @@
 ---
 title: Mustaches, Unibrows, and Shalwar Khameezes
-header: 'Mustaches, Unibrows, and Shalwar Khameezes: How I Learned New Stereotypes about Myself through AI'
+layout: post
+author: "Nabeel Siddiqui"
 ---
 
 Recently, _The Verge_ posted a story about attempting to [create an Asian man with a white woman](https://www.theverge.com/2024/4/10/24122072/ai-generated-asian-man-white-woman-couple-gemini-dalle-midjourney-tests) If you read the original article, you will find that the author struggled to generate the images with image generators attempting to give the woman “Asian features.” Because the majority of these image generators are trained on datasets that predominantly feature white individuals, the AI struggled to accurately represent an Asian man without relying on stereotypes and tropes. In addition, stereotypical images of Asian men are prominent throughout the Internet.

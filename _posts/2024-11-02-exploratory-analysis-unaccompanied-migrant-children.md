@@ -1,6 +1,7 @@
 ---
 title: Exploratory Analysis of Unaccompanied Migrant Children Data
-header: Exploratory Analysis of Unaccompanied Migrant Children Data
+layout: post
+author: "Nabeel Siddiqui"
 ---
 
 Recently, the _New York Times_ released data looking at the number of unaccompanied migrant children who have crossed into the United States. The U.S. Department of Human Health and Services keeps this data, and the organization was able to gain access to it through the [Freedom of Information Act](https://en.wikipedia.org/wiki/Freedom_of_Information_Act_(United_States)). Conditions for often these children are dire, with many [facing violence, abuse, and poverty](https://www.nytimes.com/2023/02/25/us/unaccompanied-migrant-child-workers-exploitation.html). As the _New York Times_ has noted, Americans have used these children to build [roofs](https://www.nytimes.com/interactive/2023/12/14/us/roofing-children-immigrants.html) and [work the night shift of dangerous jobs](https://www.nytimes.com/2023/09/18/magazine/child-labor-dangerous-jobs.html). Frequently, the federal agencies [ignored numerous warnings about the exploitation of these children.](https://www.nytimes.com/2023/04/17/us/politics/migrant-child-labor-biden.html)

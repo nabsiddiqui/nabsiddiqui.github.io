@@ -1,6 +1,7 @@
 ---
-title: An Undue Burden
-header: "An Undue Burden: A Look at Digital Humanities Conference Travel"
+title: An Undue Burden: A Look at Digital Humanities Conference Travel
+layout: post
+author: "Nabeel Siddiqui"
 ---
 
 About a year ago, I updated my GIS time-lapse map looking at the disproportionate travel that digital humanities scholars in the Global South took to attend the annual Digital Humanities conference. The map itself uses data from the [Index of DH Conferences](https://dh-abstracts.library.virginia.edu/) put together by Matthew D. Lincoln, Scott B. Weingart, and Nickoal Eichmann-Kalwara. Over time, there have been updates to the Index, and so I've been able to update my map accordingly. To create the visualization, I reverse-geocoded the institutional affiliations of authors in the dataset and the conference hosting institutions using [ArcGIS’ API](https://developers.arcgis.com/rest/) through [tidygeocoder](https://jessecambon.github.io/tidygeocoder/). When university affiliation was missing, I used the city or country of the presenter. The new map now includes data up until July of 2024. In total, the database now covers 60 years of conference data, featuring over 500 events, 8,800 presentations, 10,400 authors, 2,600 institutions, and multiple countries, and offers an invaluable resource for analyzing the field’s evolution over time.

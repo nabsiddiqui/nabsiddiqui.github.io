@@ -1,6 +1,7 @@
 ---
 title: Prompt Exploration of AI Image Diffusion Models for Students
-header: Prompt Exploration of AI Image Diffusion Models for Students
+layout: post
+author: "Nabeel Siddiqui"
 ---
 
 For the last few years, I have had my students explore AI image generation using text prompts. It's been a fascinating journey to see how the technology has progressed and what students can create with it. When the technology had not been so prominent, I used to have the students do a small competition using [Runway](https://runwayml.com/). At first, it was very difficult for students to get good results, as the models were not as advanced.

@@ -1,6 +1,7 @@
 ---
 title: Convolutional Neural Networks and HDBSCAN for Tagging Handwritten Archival Material
-header: "Convolutional Neural Networks and HDBSCAN for Tagging Handwritten Archival Material"
+layout: post
+author: "Nabeel Siddiqui"
 ---
 
 Handwritten archival materials present a unique challenge for automated tagging and categorization. Traditional optical character recognition (OCR) techniques still often struggle with the variability and complexity of handwritten text. As a result, most handwritten material is manually tagged and categorized by human archivists, which is a time-consuming and labor-intensive process. In many cases, historical documents may use a script or writing style that is no longer in common use. Most students are [no longer taught cursive](https://www.theatlantic.com/magazine/archive/2022/10/gen-z-handwriting-teaching-cursive-history/671246/), making it difficult for younger generations to read historical documents. While transformer models have shown promise in transcribing handwritten text, they require large amounts of labeled training data which is often not available for historical documents. Convolutional neural networks (CNNs) offer a promising alternative approach. By learning visual features directly from handwritten images, CNNs can potentially categorize and tag documents without requiring a full transcription.
