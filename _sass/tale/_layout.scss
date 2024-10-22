@@ -25,7 +25,6 @@ footer,
 
   &-title {
     @include transition(all .2s ease-out);
-    font-family: $serif-primary;
     color: $default-color;
     display: inline-block;
     margin: 0;
@@ -63,7 +62,7 @@ footer,
 
   a {
     color: $default-color;
-    font-family: $serif-prmary;
+    font-family: $sans-serif;
   }
 }
 
