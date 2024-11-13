@@ -2,11 +2,10 @@
     "title": "Humbug!",
     "filename": "0092_0092_18.jpeg",
     "description": "Adapted from the classic story of Ebenezer Scrooge, but with a twist. Scrooge gets saved!",
-    "tag 1": "Christmas",
-    "tag 2": " Older\u00a0Children\u00a0and\u00a0Adults ",
-    "issue number": "92",
-    "url": "https://www.chick.com/images/tracts/0092/0092_18.gif",
     "tags": [
-        ""
-    ]
+        "Christmas",
+        "Older\u00a0Children\u00a0and\u00a0Adults"
+    ],
+    "issue": "92",
+    "permalink": "https://www.chick.com/images/tracts/0092/0092_18.gif"
 }
