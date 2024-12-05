@@ -2,6 +2,7 @@
 title: "An Undue Burden: A Look at Digital Humanities Conference Travel"
 layout: post
 author: "Nabeel Siddiqui"
+permalink: /an-undue-burden/
 ---
 
 About a year ago, I updated my GIS time-lapse map, looking at the disproportionate travel that digital humanities scholars in the Global South took to attend the annual Digital Humanities conference. The map uses data from the [Index of DH Conferences](https://dh-abstracts.library.virginia.edu/) by Matthew D. Lincoln, Scott B. Weingart, and Nickoal Eichmann-Kalwara. Over time, there have been updates to the Index, so the map has needed an upgrade for a while. 
