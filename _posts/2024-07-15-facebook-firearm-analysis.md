@@ -4,29 +4,29 @@ layout: post
 author: "Nabeel Siddiqui"
 ---
 
-The debate over gun ownership and regulation in the United States remains contentious. Arguments often center around interpretations of the Second Amendment, public safety concerns, and the effectiveness of existing policies. To inform these discussions,I thought it would be interesting to dive into the [FBI's National Instant Criminal Background Check System (NICS) data, as compiled by the Data Liberation Project](https://github.com/data-liberation-project/nics-firearm-background-checks). NICS was mandated by the [Brady Handgun Violence Prevention Act of 1993](https://en.wikipedia.org/wiki/Brady_Handgun_Violence_Prevention_Act) and launched by the FBI in 1998. It's used by Federal Firearms Licensees (FFLs) to determine whether a prospective buyer is eligible to purchase firearms or explosives.
+The debate over gun ownership and regulation in the United States remains contentious. Arguments often center around interpretations of the Second Amendment, public safety concerns, and the effectiveness of existing policies. To inform these discussions, I thought it would be interesting to dive into the [FBI's National Instant Criminal Background Check System (NICS) data, as compiled by the Data Liberation Project](https://github.com/data-liberation-project/nics-firearm-background-checks). NICS was mandated by the [Brady Handgun Violence Prevention Act of 1993](https://en.wikipedia.org/wiki/Brady_Handgun_Violence_Prevention_Act) and launched by the FBI in 1998. It's used by Federal Firearms Licensees (FFLs) to determine whether a prospective buyer is eligible to purchase firearms or explosives.
 
-The NICS data is often used as a proxy for gun sales. However, it's important to note that it represents the number of background checks initiated, not the number of firearms sold. Various factors, such as differences in state laws and the exclusion of private sales, mean that there isn't a perfect one-to-one correlation between background checks and gun sales. I downloaded the data in May of 2024, which [you can explore here](../assets/firearm_background_reports/Firearm%20Background%20Reports%20May%202024.csv). However, because the data for 2024 is still incoming, I decided to filter it to December 2023. 
+The NICS data is often used as a proxy for gun sales. However, it's important to note that it represents the number of background checks initiated, not the number of firearms sold. Various factors, such as differences in state laws and the exclusion of private sales, mean that there isn't a perfect one-to-one correlation between background checks and gun sales. I downloaded the data in May 2024, which [you can explore here](../assets/firearm_background_reports/Firearm%20Background%20Reports%20May%202024.csv). However, because the data for 2024 is still incoming, I decided to filter it to December 2023.
 
 ## Permit Checks
 
-To begin our analysis, let's look at the top 10 states with the highest number of permit checks in the most recent year of data. Some states use these permit checks as an alternative to the standard NICS background check process. As we can see, Illinois and Pennsylvania are the top two states on the list, with Illinois being significantly higher than any other state. This is likely due to Illinois' [Firearm Owners Identification (FOID) card system](https://en.wikipedia.org/wiki/Firearm_Owner%27s_Identification), which requires all firearm owners to obtain a permit before purchasing or possessing firearms.
+To begin our analysis, let's look at the top 10 states with the highest number of permit checks in the most recent year of data. Some states use these permit checks as an alternative to the standard NICS background check process. As we can see, Illinois and Pennsylvania are the top two states on the list, with Illinois being significantly higher than any other state. This is likely due to Illinois's [Firearm Owners Identification (FOID) card system](https://en.wikipedia.org/wiki/Firearm_Owner%27s_Identification), which requires all firearm owners to obtain a permit before purchasing or possessing firearms.
 
 ![](../assets/firearm_background_reports/Top%2010%20State%20Permits.png)
 
 What we find here is that a state's presence on this list doesn't necessarily indicate higher overall gun ownership rates; it may simply reflect differences in the background check process and reporting requirements.
 
-In the line chart below, we see an increase in 2006 and a large spike around 2015. I have not been able to pinpoint the exact reason for this as much of this is outside my specialty, but I'm sure others can provide better insights.
+In the line chart below, we see an increase in 2006 and a large spike around 2015. I have not been able to pinpoint the exact reason for this, as much of this is outside my specialty, but I'm sure others can provide better insights.
 
 ![](../assets/firearm_background_reports/total_permits_line_chart.png)
 
-By dividing the permits by interquartile range, we can identify outliers and better understand the distribution of permit checks across states. The map below shows the relative intensity of permit checks, with darker shades indicating higher volumes. We can see that Illinois, California, and Pennsylvania stand outl.
+By dividing the permits by interquartile range, we can identify outliers and better understand the distribution of permit checks across states. The map below shows the relative intensity of permit checks, with darker shades indicating higher volumes. We can see that Illinois, California, and Pennsylvania stand out.
 
 ![](../assets/firearm_background_reports/state_permits_iqr.png)
 
 ## Permit Rechecks
 
-Some states conduct periodic rechecks in addition to initial permit checks to ensure permit holders remain eligible. Kentucky dominates this list. Most likely, this is due to Kentucky's \[shall-issue concealed carry permit system\]([https://www.usconcealedcarry.com/resources/ccw\_reciprocity\_map/ky-gun-laws/](https://www.usconcealedcarry.com/resources/ccw_reciprocity_map/ky-gun-laws/)), which requires permit holders to renew their permits every five years. 
+Some states conduct periodic rechecks in addition to initial permit checks to ensure permit holders remain eligible. Kentucky dominates this list. Most likely, this is due to Kentucky's [concealed carry permit system](https://www.usconcealedcarry.com/resources/ccw_reciprocity_map/ky-gun-laws/), which requires permit holders to renew their permits every five years.
 
 ![](../assets/firearm_background_reports/Top%2010%20State%20Permit%20Recheck.png)
 

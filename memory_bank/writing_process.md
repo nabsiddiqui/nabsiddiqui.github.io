@@ -1,0 +1,5 @@
+# Writing Process
+
+*   **Methods:** The primary method will be iterative revision. Each file will be read carefully, edits will be applied for clarity, grammar, style, and formatting. Changes will be tracked or documented as needed (potentially using diffs or summaries in the progress log).
+*   **Information Gathering:** This project focuses on editing existing content, so information gathering is limited to understanding the context of each post/page and potentially verifying external links or factual claims if they seem questionable. No new external sources are expected to be integrated unless correcting an error.
+*   **Process Justification:** Iterative revision is suitable for enhancing existing texts. A systematic file-by-file approach ensures comprehensive coverage of all content within the defined scope.
