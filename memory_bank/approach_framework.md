@@ -1,5 +1,0 @@
-# Approach & Framework
-
-*   **Guiding Principles:** The editing process will prioritize clarity, conciseness, grammatical correctness, and consistency in tone and style across all posts and pages. Adherence to standard English conventions is paramount. Check for factual accuracy where possible and flag potential issues. Ensure Markdown formatting is correct and renders properly.
-*   **Key Concepts/Stylistic Choices:** Maintain a professional yet accessible tone appropriate for the website's audience. Ensure consistent terminology, especially for recurring topics or technical terms. Verify internal and external links if feasible.
-*   **Framework Application:** Apply these principles systematically to each file in the `_posts` and `_pages` directories. Edits will focus on improving readability and ensuring the content is polished and error-free.

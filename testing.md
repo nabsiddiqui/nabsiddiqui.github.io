@@ -1,2 +1,0 @@
-npc_kmeans
-npc_hdbscan
