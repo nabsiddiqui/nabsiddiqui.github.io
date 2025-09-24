@@ -42,6 +42,7 @@
 - **FIXED**: Restored `gemspec` line in Gemfile after it caused theme navigation issues
 - **FIXED**: Corrected book cover image extension from .jpg to .jpeg
 - **FIXED**: Updated navigation background color to match site background (#f8f8f3 instead of white)
+- **FIXED**: Navigation layout alignment - name and menu links now properly on same line
 - Blog post tone adjusted to be more conversational and approachable
 - Book announcement post ready for publication
 
@@ -56,6 +57,15 @@
 - **Solution**: Changed nav background from `rgba(255, 255, 255, 0.98)` to `rgba(248, 248, 243, 0.98)`
 - **Location**: `_sass/tale/_nav.scss` file
 - **Note**: Site background color is #f8f8f3 (light beige/cream)
+
+### Navigation Layout Alignment Issue
+- **Problem**: Navigation links were wrapping to new line instead of staying aligned with name
+- **Solution**: Enhanced flexbox layout with proper flex properties:
+  - Added `flex-wrap: nowrap` to prevent wrapping
+  - Added `flex-shrink: 0` to title and navigation list
+  - Added `white-space: nowrap` to prevent text wrapping
+  - Increased gap between nav links for better spacing
+  - Added responsive adjustments for smaller screens
 
 ## Blog Post Ideas
 - Cultural analytics methodologies
