@@ -29,11 +29,19 @@
 
 ## Current Tasks & TODOs
 - [x] Create websiteNotes.md file (hidden from public view)
-- [ ] Create book launch blog post
-- [ ] Add book cover image to assets/book_launch/
-- [ ] Proofread and grammar check new posts
+- [x] Create book launch blog post
+- [x] Add book cover image to assets/book_launch/
+- [x] Fix image path issues in blog post
+- [x] Fix Gemfile for GitHub Pages compatibility
+- [x] Proofread and grammar check new posts
 - [ ] Update CV with new publication
 - [ ] Consider adding book information to about page
+
+## Recent Updates (September 24, 2025)
+- Fixed blog post image path from `/assets/` to `../assets/` format (consistent with other posts)
+- Updated Gemfile to use `github-pages` gem for better compatibility
+- Blog post tone adjusted to be more conversational and approachable
+- Book announcement post ready for publication
 
 ## Blog Post Ideas
 - Cultural analytics methodologies
@@ -49,6 +57,15 @@
 - SEO tag plugin active
 - Pagination set to 5 posts per page
 - Files in exclude list won't be published to GitHub Pages
+
+### Image Paths
+- Use `../assets/folder/image.jpg` format in blog posts (relative paths)
+- Avoid `/assets/` (absolute paths) as they don't work correctly in Jekyll
+
+### Gemfile Configuration
+- Using `github-pages` gem for maximum compatibility with GitHub Pages
+- Alternative: Use GitHub Actions for custom Jekyll builds (see commented section in Gemfile)
+- The theme gemspec dependencies are included via github-pages gem
 
 ## Publishing Workflow
 1. Write posts in `_posts/` directory
