@@ -17,7 +17,7 @@ This book is designed to bridge that gap between traditional humanities research
 
 I get this question a lot! R might seem like an odd choice since it's mainly known for statistics R has an amazing ecosystem of packages that all work together really well, especially when you're dealing with different types of cultural data—text, images, numbers, geographic information—sometimes all in the same project. These packages work with "tidy data" (thanks, Hadley Wickham!). It's basically a way of organizing your data that makes everything else easier. Once you get the hang of it, you can move seamlessly between different data types. 
 
-![Cultural Analytics in R Book Cover](../assets/book_launch/book_launch.jpg)
+![Cultural Analytics in R Book Cover](../assets/book_launch/book_launch.jpeg)
 
 ## What's Actually In The Book
 

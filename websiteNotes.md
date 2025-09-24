@@ -39,9 +39,16 @@
 
 ## Recent Updates (September 24, 2025)
 - Fixed blog post image path from `/assets/` to `../assets/` format (consistent with other posts)
-- Updated Gemfile to use `github-pages` gem for better compatibility
+- **FIXED**: Restored `gemspec` line in Gemfile after it caused theme navigation issues
+- **FIXED**: Corrected book cover image extension from .jpg to .jpeg
 - Blog post tone adjusted to be more conversational and approachable
 - Book announcement post ready for publication
+
+## Issues Encountered & Solutions
+### Theme Navigation Breaking
+- **Problem**: Removed `gemspec` from Gemfile which broke theme loading and navigation
+- **Solution**: Restored `gemspec` line - this loads the theme dependencies from tale.gemspec
+- **Lesson**: The theme relies on gemspec for proper CSS and navigation functionality
 
 ## Blog Post Ideas
 - Cultural analytics methodologies
@@ -63,9 +70,15 @@
 - Avoid `/assets/` (absolute paths) as they don't work correctly in Jekyll
 
 ### Gemfile Configuration
-- Using `github-pages` gem for maximum compatibility with GitHub Pages
-- Alternative: Use GitHub Actions for custom Jekyll builds (see commented section in Gemfile)
-- The theme gemspec dependencies are included via github-pages gem
+- **IMPORTANT**: Keep `gemspec` line in Gemfile - this loads the tale theme properly
+- The `gemspec` references tale.gemspec which contains all theme dependencies
+- Alternative github-pages gem can override theme dependencies and break navigation
+- For GitHub Pages compatibility issues, use GitHub Actions instead of changing Gemfile
+
+### Image File Extensions
+- Book cover image is actually .jpeg not .jpg
+- Always verify actual file extensions in assets folders
+- Use relative paths: `../assets/folder/image.ext`
 
 ## Publishing Workflow
 1. Write posts in `_posts/` directory
