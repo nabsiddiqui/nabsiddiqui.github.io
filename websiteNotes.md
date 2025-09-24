@@ -41,6 +41,7 @@
 - Fixed blog post image path from `/assets/` to `../assets/` format (consistent with other posts)
 - **FIXED**: Restored `gemspec` line in Gemfile after it caused theme navigation issues
 - **FIXED**: Corrected book cover image extension from .jpg to .jpeg
+- **FIXED**: Updated navigation background color to match site background (#f8f8f3 instead of white)
 - Blog post tone adjusted to be more conversational and approachable
 - Book announcement post ready for publication
 
@@ -49,6 +50,12 @@
 - **Problem**: Removed `gemspec` from Gemfile which broke theme loading and navigation
 - **Solution**: Restored `gemspec` line - this loads the theme dependencies from tale.gemspec
 - **Lesson**: The theme relies on gemspec for proper CSS and navigation functionality
+
+### Navigation Header Color Issue
+- **Problem**: Navigation bar was showing white background instead of matching site background
+- **Solution**: Changed nav background from `rgba(255, 255, 255, 0.98)` to `rgba(248, 248, 243, 0.98)`
+- **Location**: `_sass/tale/_nav.scss` file
+- **Note**: Site background color is #f8f8f3 (light beige/cream)
 
 ## Blog Post Ideas
 - Cultural analytics methodologies
