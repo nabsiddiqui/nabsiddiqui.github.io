@@ -692,7 +692,7 @@ a.sidebar-nav-item:focus {
 }
 
 .about-profile-pic {
-  width: 200px;
+  width: 300px;
   height: auto;
   object-fit: cover;
   border: 2px solid #ebebeb;
