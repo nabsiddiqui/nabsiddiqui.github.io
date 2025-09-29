@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Merriweather:wght@300;400;700&display=swap');
 
 /*
  *                        ___
@@ -50,10 +50,9 @@ body {
 }
 
 html {
-  font-family: "Mulish", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
-  line-height: 30px;
-  letter-spacing: 0.5px;
+  font-family: "Merriweather", Georgia, serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 @media (min-width: 38em) {
   html {
@@ -86,9 +85,9 @@ a:focus {
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: 500;
-  line-height: 1.4;
+  line-height: 1.25;
   color: #000;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Oswald", sans-serif;
   text-rendering: optimizeLegibility;
 }
 h1 {
@@ -474,7 +473,7 @@ a.pagination-item:hover {
 .css .o,
 .css .o + .nt,
 .css .nt + .nt { color: #999; }
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Merriweather:wght@300;400;700&display=swap');
 
 /*
  *  __                  __
@@ -510,7 +509,7 @@ a.pagination-item:hover {
  */
 
 html {
-  font-family: "Mulish", Helvetica, Arial, sans-serif;
+  font-family: "Merriweather", Georgia, serif;
 }
 @media (min-width: 48em) {
   html {
@@ -553,18 +552,35 @@ html {
   }
 }
 
-/* Sidebar links */
+/* Sidebar links - general styling */
 .sidebar a {
   color: #767676;
   text-decoration: none;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
-  transition: all .3s ease;
+  transition: color .3s ease;
+  position: relative;
+  display: inline-block;
 }
 
 .sidebar a:hover {
   color: #000;
-  letter-spacing: 2px;
+}
+
+/* Animated underline effect for sidebar navigation links only */
+.sidebar-nav a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  transition: width .4s ease;
+}
+
+.sidebar-nav a:hover::after {
+  width: 100%;
 }
 
 /* Profile image */
@@ -598,8 +614,15 @@ html {
   margin-top: 0;
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
-  font-weight: 800;
+  font-weight: 900;
   text-align: left;
+  text-transform: uppercase;
+}
+
+/* Style for last name in red and bold */
+.sidebar-about h1 .last-name {
+  color: #dc3545;
+  font-weight: 900;
 }
 
 .sidebar-about .lead {
@@ -616,20 +639,43 @@ html {
 
 .sidebar-nav li {
   margin-bottom: 0.5rem;
+  list-style: none;
 }
-.sidebar-nav-item {
+
+.sidebar-nav a {
+  position: relative;
   display: block;
-}
-a.sidebar-nav-item:hover,
-a.sidebar-nav-item:focus {
-  color: #000;
-  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 20px 0;
+  padding: 10px 20px;
   text-decoration: none;
+  color: #262626;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  transition: .3s ease;
+  z-index: 1;
 }
-.sidebar-nav-item.active {
-  color: #000;
-  letter-spacing: 2px;
-  font-weight: 500;
+
+.sidebar-nav a:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #262626;
+  transform: scaleY(0);
+  transition: .3s ease;
+  z-index: -1;
+}
+
+.sidebar-nav a:hover {
+  color: #fff;
+}
+
+.sidebar-nav a:hover:after {
+  transform: scaleY(1);
 }
 
 /* Sticky sidebar
@@ -721,14 +767,8 @@ a.sidebar-nav-item:focus {
 .page h1 {
   margin-bottom: 1.5rem;
   color: #000;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-}
-
-/* Animation enhancements */
-.animate__animated {
-  animation-duration: 0.8s;
-  animation-fill-mode: both;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600;
 }
 
 
@@ -837,4 +877,37 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+/* Blog post title hover effects with animated underline */
+.post-title {
+  margin-bottom: 1.5rem; /* More space between title and date */
+  text-transform: uppercase;
+}
+
+.post-title a {
+  position: relative;
+  text-decoration: none;
+  transition: color .3s ease;
+  display: inline-block;
+}
+
+.post-title a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  transition: width .4s ease;
+}
+
+.post-title a:hover::after {
+  width: 100%;
+}
+
+.post-title a:hover {
+  text-decoration: none;
+  color: #000;
 }
