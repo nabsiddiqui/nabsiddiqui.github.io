@@ -909,6 +909,11 @@ html {
   color: #dc3545;
 }
 
+/* Blog post styling */
+.post-date {
+  margin-bottom: 2rem; /* Add more space between date and content */
+}
+
 /* Mobile hamburger menu */
 .mobile-header {
   display: none;
