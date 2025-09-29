@@ -909,18 +909,55 @@ html {
   color: #dc3545;
 }
 
+/* Blog post title hover effects - thick red underline animation */
+.post-title {
+  margin-bottom: 1.5rem; /* Normal space for blog list */
+  text-transform: uppercase;
+}
+
+.post-title a {
+  position: relative;
+  text-decoration: none;
+  transition: color .3s ease;
+  display: inline-block;
+}
+
+.post-title a::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 0;
+  height: 4px;
+  background-color: #dc3545;
+  transition: width .4s ease;
+}
+
+.post-title a:hover::after {
+  width: 100%;
+}
+
+.post-title a:hover {
+  text-decoration: none;
+  color: #dc3545;
+}
+
 /* Blog post styling */
 .post-date {
   margin-bottom: 1rem; /* Normal space between date and content */
+  font-style: normal;
+  font-weight: 700;
 }
 
 /* Individual blog post page spacing */
 .post h1 {
-  margin-bottom: 2rem; /* More space between title and date on individual posts */
+  margin-bottom: 1rem; /* Reduced space between title and date on individual posts */
 }
 
 .post .post-date {
   margin-bottom: 2rem; /* More space between date and content on individual posts */
+  font-style: normal;
+  font-weight: 700;
 }
 
 /* Mobile hamburger menu */
