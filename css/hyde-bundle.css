@@ -943,33 +943,36 @@ html {
   border: none;
   cursor: pointer;
   padding: 0;
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   left: 1rem;
+  font-size: 28px;
+  color: #262626;
 }
 
-.hamburger-menu span {
-  display: block;
-  height: 3px;
-  width: 100%;
-  background-color: #262626;
+.hamburger-icon,
+.close-icon {
   transition: all 0.3s ease;
+  position: absolute;
 }
 
-.hamburger-menu.active span:nth-child(1) {
-  transform: rotate(45deg) translate(6px, 6px);
-}
-
-.hamburger-menu.active span:nth-child(2) {
+.close-icon {
   opacity: 0;
+  transform: rotate(180deg);
 }
 
-.hamburger-menu.active span:nth-child(3) {
-  transform: rotate(-45deg) translate(6px, -6px);
+.hamburger-menu.active .hamburger-icon {
+  opacity: 0;
+  transform: rotate(-180deg);
+}
+
+.hamburger-menu.active .close-icon {
+  opacity: 1;
+  transform: rotate(0deg);
 }
 
 /* Mobile menu overlay */
