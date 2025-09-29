@@ -893,7 +893,7 @@ html {
 
 /* Blog post title hover effects - simple red text */
 .post-title {
-  margin-bottom: 2rem; /* More space between title and date */
+  margin-bottom: 1.5rem; /* Normal space for blog list */
   text-transform: uppercase;
 }
 
@@ -912,6 +912,15 @@ html {
 /* Blog post styling */
 .post-date {
   margin-bottom: 1rem; /* Normal space between date and content */
+}
+
+/* Individual blog post page spacing */
+.post h1 {
+  margin-bottom: 2rem; /* More space between title and date on individual posts */
+}
+
+.post .post-date {
+  margin-bottom: 2rem; /* More space between date and content on individual posts */
 }
 
 /* Mobile hamburger menu */
