@@ -6,15 +6,8 @@
     <description>Recent content on Nabeel Siddiqui</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 16 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://nabeelsiddiqui.net/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hello World Test Post</title>
-      <link>https://nabeelsiddiqui.net/posts/2025-11-16-hello-world-test/</link>
-      <pubDate>Sun, 16 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://nabeelsiddiqui.net/posts/2025-11-16-hello-world-test/</guid>
-      <description>&lt;p&gt;This is a test blog post created to verify the Hugo workflow and memory bank documentation system.&lt;/p&gt;&#xA;&lt;h2 id=&#34;purpose&#34;&gt;Purpose&lt;/h2&gt;&#xA;&lt;p&gt;This post tests:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Hugo content creation workflow&lt;/li&gt;&#xA;&lt;li&gt;Local server preview&lt;/li&gt;&#xA;&lt;li&gt;Build process&lt;/li&gt;&#xA;&lt;li&gt;Memory bank documentation accuracy&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;testing-checklist&#34;&gt;Testing Checklist&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;✅ Create post with proper front matter&lt;/li&gt;&#xA;&lt;li&gt;✅ Use standard Markdown formatting&lt;/li&gt;&#xA;&lt;li&gt;✅ Test local server&lt;/li&gt;&#xA;&lt;li&gt;✅ Verify build process&lt;/li&gt;&#xA;&lt;li&gt;✅ Confirm deployment workflow&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;next-steps&#34;&gt;Next Steps&lt;/h2&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re reading this post on the live site, the workflow is confirmed working! The memory bank documentation can now be used as a reliable guide for creating future blog posts.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Announcing My New Book: Cultural Analytics in R - A Tidy Approach</title>
       <link>https://nabeelsiddiqui.net/posts/2025-09-24-cultural-analytics-book-announcement/</link>

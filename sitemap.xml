@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://nabeelsiddiqui.net/posts/2025-11-16-hello-world-test/</loc>
-    <lastmod>2025-11-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nabeelsiddiqui.net/</loc>
-    <lastmod>2025-11-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://nabeelsiddiqui.net/posts/</loc>
-    <lastmod>2025-11-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://nabeelsiddiqui.net/posts/2025-09-24-cultural-analytics-book-announcement/</loc>
     <lastmod>2025-09-24T00:00:00+00:00</lastmod>
   </url><url>
@@ -24,6 +15,12 @@
     <lastmod>2025-09-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nabeelsiddiqui.net/tags/digital-humanities/</loc>
+    <lastmod>2025-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nabeelsiddiqui.net/</loc>
+    <lastmod>2025-09-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nabeelsiddiqui.net/posts/</loc>
     <lastmod>2025-09-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://nabeelsiddiqui.net/tags/publication/</loc>
